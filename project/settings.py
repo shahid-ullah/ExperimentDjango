@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # local apps
-    'evnets.app.EventsConfig',
-    'entities.app.EntitiessConfig',
+    'events.apps.EventsConfig',
+    'entities.apps.EntitiesConfig',
 ]
 
 MIDDLEWARE = [
