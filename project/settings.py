@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # local apps
     'events.apps.EventsConfig',
     'entities.apps.EntitiesConfig',
+    'aggregator.apps.AggregatorConfig',
 ]
 
 MIDDLEWARE = [

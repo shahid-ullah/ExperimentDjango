@@ -18,7 +18,8 @@ from django.urls import path
 from events.admin import event_admin_site
 
 urlpatterns = [
-path('entity-admin/', admin.site.urls),
+path('admin/', admin.site.urls),
+# path('entity-admin/', admin.site.urls),
 path('event-admin/', event_admin_site.urls),
 ]
 
