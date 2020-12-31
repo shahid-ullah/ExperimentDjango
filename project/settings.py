@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'events.apps.EventsConfig',
     'entities.apps.EntitiesConfig',
     'aggregator.apps.AggregatorConfig',
+    'article.apps.ArticleConfig',
 ]
 
 MIDDLEWARE = [
