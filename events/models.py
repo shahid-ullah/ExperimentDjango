@@ -1,7 +1,5 @@
 from django.db import models
-from entities.models import Villian
-
-from entities.models import Hero
+from entities.models import Hero, Villian
 
 
 class Epic(models.Model):
