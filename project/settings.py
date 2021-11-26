@@ -40,10 +40,10 @@ INSTALLED_APPS = [
     # third party apps
     "django_extensions",
     # local apps
-    "events.apps.EventsConfig",
-    "entities.apps.EntitiesConfig",
-    "aggregator.apps.AggregatorConfig",
-    "article.apps.ArticleConfig",
+    # "events.apps.EventsConfig",
+    # "entities.apps.EntitiesConfig",
+    # "aggregator.apps.AggregatorConfig",
+    # "article.apps.ArticleConfig",
 ]
 
 MIDDLEWARE = [
